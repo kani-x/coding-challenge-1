@@ -40,3 +40,18 @@ console.log(message);
 
 let messageTemplate = `Hello, ${customerName}! Welcome to our store!`;
 console.log(messageTemplate); 
+
+// Task 5 - Access Control
+
+let isLoggedIn = true;
+
+let isAdmin = true;  
+
+if (isLoggedIn && isAdmin) {
+    console.log("Access granted! Welcome, Admin.");
+} else if (isLoggedIn && !isAdmin) {
+    console.log("Access granted! Welcome, User.");
+} else {
+    console.log("Access denied! Please log in.");
+}
+
