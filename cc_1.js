@@ -30,3 +30,13 @@ console.log("After interest: " + accountBalance);
 
 accountBalance /= 2;  
 console.log("After division: " + accountBalance); 
+
+// Task 4 - Customer Messaging
+
+let customerName = "Percy Jackson";
+
+let message = "Hello, " + customerName + "! Welcome to our store!";
+console.log(message); 
+
+let messageTemplate = `Hello, ${customerName}! Welcome to our store!`;
+console.log(messageTemplate); 
